@@ -4,4 +4,5 @@ import calculate
 
 class Calculate(unittest.TestCase):
     # TODO
-    abc
+    def test_add(self):
+        self.assertEqual(calculate.add(5, 10), 15)
